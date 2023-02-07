@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.0.4",
+    "nuxt": "^3.1.0"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.4.3",
+    "@nuxt/webpack-builder": "^3.1.2",
+    "js-yaml-loader": "^1.2.2",
+    "json-loader": "^0.5.7",
+    "sass": "^1.58.0",
+    "vite-plugin-yaml2": "^1.1.5",
+    "yaml-loader": "^0.8.0"
+  }
+}

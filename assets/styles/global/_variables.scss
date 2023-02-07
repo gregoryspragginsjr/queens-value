@@ -1,0 +1,21 @@
+@import '../mixins/mixins-foundation';
+
+// Colors
+$white: #ffffff;
+$black: #212121;
+$navy: #00205b;
+$periwinkle: #c7dbff;
+$neon: #cdff00;
+$gold: #a89668;
+
+// Fonts
+$font-primary: 'garaje', serif;
+$font-secondary: 'stratos', sans-serif;
+$font-tertiary: 'bridge-text', serif;
+
+// Grid
+$grid-max-width: rem-calc(1280px);
+$grid-column-gutter: (
+  small: 20px,
+  large: 40px,
+);

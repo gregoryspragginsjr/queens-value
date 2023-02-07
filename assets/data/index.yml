@@ -1,0 +1,74 @@
+components:
+  -
+    type: mediaContextSection
+    items:
+      -
+        reversed: true
+        image:
+          src: ~/assets/images/saxophone.jpg
+          alt: man playing a saxophone
+          sizes:
+            desktop: ~/assets/images/saxophone.jpg
+            mobile: ~/assets/images/saxophone.jpg
+        heading: Not to be served, but to serve
+        paragraphs: "<p>Those aren't just words our students live by. All Royals rise to show up for our community in every way we can.</p><p>Including supporting you and your student through the application process in whatever way is best for you—whether it be a phone call, email, text, or a chat over coffee.</p>"
+      -
+        reversed: true
+        micro: true
+        image:
+          src: ~/assets/images/saxophone.jpg
+          alt: man playing a saxophone
+          sizes:
+            desktop: ~/assets/images/saxophone.jpg
+            mobile: ~/assets/images/saxophone.jpg
+        heading: No two tours are the same
+        paragraphs: "<p>Each tour is personalized by your guide, who is a real-life Queens student. And while every guide is equipped with extensive knowledge, and can answer any question you may have, they tailor their tour by sharing real details and anecdotes about all things Queens.</p>"
+      -
+        micro: true
+        reversedtab: true
+        image:
+          src: ~/assets/images/saxophone.jpg
+          alt: man playing a saxophone
+          sizes:
+            desktop: ~/assets/images/saxophone.jpg
+            mobile: ~/assets/images/saxophone.jpg
+        heading: Academic Life
+        paragraphs: "<p>These next four years, you’ll look to lay a foundation for success later in life (no pressure, right?) It starts with choosing your path. And although our wide array of 41 majors and 58 minors may feel overwhelming at times, our staff and faculty are here to help guide you every step of the way. To round out your time at Queens, our team will help connect you with internships, study abroad opportunities, and civic engagement experiences—regardless of the program you choose.</p>"
+      -
+        image:
+          src: ~/assets/images/saxophone.jpg
+          alt: man playing a saxophone
+          sizes:
+            desktop: ~/assets/images/saxophone.jpg
+            mobile: ~/assets/images/saxophone.jpg
+        heading: Charlotte and Queens and You
+        paragraphs: "<p>Concerts, restaurants, coffee shops, museums, and professional sports aside—Charlotte is a city renowned for its connections.</p>"
+  -
+    type: pillGroupSection
+    heading: Charlotte and Queens
+    paragraph: '“Charlotte is the best city on earth.” Ahmon Powell, our Assistant Director of Admissions told us that. And we’ve got more than a few reasons to believe it’s true. Check out why Charlotte offers the perfect backdrop for students to succeed in:'
+    items:
+      -
+        heading: 16th in population
+        paragraphs: <p>Charlotte is one of the fastest-growing cities on the east coast.</p>
+      -
+        heading: Top 25 Media Market
+        paragraphs: <p>Charlotte has companies like ABC, ESPN, Live Nation Entertainment, Disney, and more.</p>
+      -
+        heading: Top 2 Market
+        paragraphs: '<p>Charlotte ranks #2 in the best areas for job-seeking college grads.</p>'
+      -
+        heading: Financial Hub
+        paragraphs: '<p>Charlotte is the #2 largest banking center (after New York City).</p>'
+      -
+        heading: Jobs! Jobs! Jobs!
+        paragraphs: '<p>Charlotte job growth is expected to outpace the national average by 45.2% over the next 10 years (bestplaces.net).</p>'
+      -
+        heading: Top 10 for Tech
+        paragraphs: '<p>Charlotte’s home to one of the top ten fastest-growing tech talent markets in the US.</p>'
+      -
+        heading: Strong Healthcare
+        paragraphs: '<p>Charlotte is home to a booming healthcare industry that employs one in nine our region’s workforce (charlotteregion.com).</p>'
+      -
+        heading: More to Do
+        paragraphs: '<p>Charlotte’s a hub for food, culture, music, diversity, and professional sports teams.</p>'
