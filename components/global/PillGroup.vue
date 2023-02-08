@@ -22,7 +22,10 @@
               class="heading-style-2"
               v-text="item.heading"
             />
-            <div class="text-wrap" v-html="item.paragraphs" />
+            <div
+              class="text-wrap text-wrap--paragraph-style-3"
+              v-html="item.paragraphs"
+            />
           </div>
         </div>
       </div>

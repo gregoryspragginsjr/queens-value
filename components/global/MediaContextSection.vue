@@ -21,8 +21,14 @@
             class="heading-style-2 text-primary"
             v-text="item.heading"
           />
-          <div class="media-context__text text-wrap" v-html="item.paragraphs" />
+          <div class="media-context__text text-wrap text-wrap--paragraph-style-3" v-html="item.paragraphs" />
         </div>
+      </div>
+    </div>
+    <div class="media-context-section__inner grid">
+      <div class="media-context-section__footer">
+        <div class="media-context-section__caption">Queens University of Charlotte</div>
+        <div class="media-context-section__caption">Royals Rise</div>
       </div>
     </div>
   </div>
@@ -46,11 +52,23 @@ export default {
   padding: 96px 0 40px;
   background-color: $navy;
 
+  .section & {
+    padding: 0;
+  }
+
   &__inner {
     row-gap: map.get($grid-column-gutter, small);
 
     @include breakpoint(medium) {
       row-gap: map.get($grid-column-gutter, large);
+    }
+  }
+
+  &__inner + &__inner {
+    margin-top: 100px;
+
+    .section & {
+      display: none;
     }
   }
 
@@ -60,6 +78,25 @@ export default {
     @include breakpoint(large) {
       grid-column: span 6 / span 6;
     }
+  }
+
+  &__footer {
+    display: flex;
+    grid-column: span 12 / span 12;
+    justify-content: space-between;
+
+    .section & {
+      display: none;
+    }
+  }
+
+  &__caption {
+    font-family: 'grotesk';
+    font-size: rem-calc(12px);
+    font-weight: 800;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: $neon;
   }
 }
 
@@ -120,13 +157,13 @@ export default {
 
   &__context {
     @include breakpoint(medium) {
-      padding: 0 100px 0 0;
+      padding: 0 80px 0 0;
     }
 
     .media-context--reversed & {
       @include breakpoint(medium) {
         order: -1;
-        padding: 0 0 0 100px;
+        padding: 0 0 0 80px;
       }
     }
 

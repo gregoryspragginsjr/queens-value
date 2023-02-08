@@ -18,7 +18,7 @@
   font-family: $font-secondary;
   font-size: rem-calc(24px);
   font-weight: 600;
-  line-height: 115%;
+  line-height: 120%;
 }
 
 @mixin paragraph-style-2() {
@@ -37,7 +37,7 @@
 
 @mixin paragraph-style-3() {
   font-family: $font-tertiary;
-  font-size: rem-calc(14px);
+  font-size: rem-calc(16px);
   font-weight: 600;
   line-height: 120%;
 }

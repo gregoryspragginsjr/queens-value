@@ -35,6 +35,6 @@ export default {
 }
 
 .pill-group-section + .pill-group-section {
-  margin-top: 0;
+  padding-top: 0;
 }
 </style>

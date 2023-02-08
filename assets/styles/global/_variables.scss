@@ -19,3 +19,9 @@ $grid-column-gutter: (
   small: 20px,
   large: 40px,
 );
+
+// Easing
+$ease-default: ease-in-out;
+
+// Transitions
+$transition-default: 0.2s $ease-default;

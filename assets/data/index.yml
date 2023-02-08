@@ -72,3 +72,261 @@ components:
       -
         heading: More to Do
         paragraphs: '<p>Charlotte’s a hub for food, culture, music, diversity, and professional sports teams.</p>'
+  -
+    type: section
+    heading: Academics at Queens
+    components:
+      -
+        type: thumbnailCarousel
+        items:
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+      -
+        type: pillGroup
+        heading: Why We're Worth it  
+        items:
+          -
+            heading: Social Mobility
+            paragraphs: '<p>At Queens, we rank #1 among Charlotte institutions in *social mobility</p>'
+          -
+            heading: Lifetime Earning Potential
+            paragraphs: '<p>College grads can expect to earn $1 million more in lifetime earning potential than those who only hold a high school diploma*</p>'
+          -
+            heading: Lifelong Skills
+            paragraphs: '<p>Our gen ed program is purposefully structured so that you’re learning how to approach real-life issues with the necessary nuances that will help you be effective. This will allow you to develop skills like critical thinking, empathy, and problem solving that are essential when it comes to entering the workforce.</p>'
+          -
+            heading: Set Up for Success
+            paragraphs: '<p>96% of 2020 traditional undergrads are employed, in grad school or service within 12 months.</p>'
+  -
+    type: overview
+    subheading: What's the Cost?
+    heading: Let’s Break it Down.
+    paragraphs: '<p>Not all colleges and universities talk about cost the same way. But we figure that if you’re investing your hard-earned money, you deserve the transparent truth about price. So take a look below for a comprehensive breakdown of exactly where your money is really going.</p><p>Keep in mind that the “sticker” price isn’t always your final price. If you do your due diligence, and apply for financial aid, you may be pleasantly surprised by the financial support that’s available.</p>'
+    items:
+      -
+        heading: Full-time comprehensive tuition
+        subheading: $40,590
+        paragraphs: <ul><li>Includes the majority of study abroad costs</li></ul>
+      -
+        heading: Housing Options
+        subheading: $6,300 - $12,000
+        paragraphs: '<ul><li>Corridor Double (Albright, Barnhardt, Belk): $8k/year</li><li>Corridor Triple (Albright, Barnhardt): $7.2k/year</li><li>Corridor Quad (Barnhardt): $6.3k/year</li><li>Corridor Double (Hayes): $9.5k/year</li><li>Corridor Double (HBO): $8k/year</li><li>Corridor Triple (HBO): $7.2k/year</li><li>Suite Single (Wireman, Byrum, Northwest): $12k/year</li><li>Suite Double (Wireman, Byrum, Hayes, Northwest): $9.5k/year</li><li>Suite Double with Private Bathroom (Northwest): $10.1k/year</li><li>Suite Triple (Northwest): $8.3k/year</li></ul>'
+      -
+        heading: Meal Plan Options
+        subheading: $3,200 - $6,000
+        paragraphs: '<ul><li>Resident Meal Plan Options:<ul><li>Unlimited Meal Plan: $6k/year</li><li>17 Meals Per Week: $5.2k/year</li><li>12 Meals Per Week: $4.8k/year</li><li>7 Meals Per Week (Only available to juniors and seniors): $3.2k/year</li></ul></li><li>Commuter Meal Plan Options:<ul><li>10 Meals: $97.03 +tax</li><li>25 Meals: $218.48 +tax</li><li>50 Meals: $413.16 +tax</li><li>75 Meals: $519.06 +tax</li><li>100 Meals: $679.46 +tax</li></ul></li></ul>'
+      -
+        heading: Average total cost
+        subheading: $56,030
+        paragraphs: <ul><li>Before aid (based on the most cost-effective housing and meal plan)</li></ul>
+  -
+    type: pillGroupSection
+    heading: Scholarships
+    items:
+      -
+        heading: Merit-Based
+        paragraphs: <p>This type of scholarship is awarded to students based solely on academic or extracurricular excellence, as opposed to financial need.</p>
+      -
+        heading: Athletics
+        paragraphs: <p>If you’re an NCAA Division I student-athlete, this talent-based scholarship could be for you.</p>
+      -
+        heading: Name something else
+        paragraphs: '<p>For students and families in Mecklenburg County, our Charlotte Talent Initiative (CTI) is designed to help create economic mobility. CTI scholars will be provided funds to cover tuition, room and board.</p>'
+      -
+        heading: More
+        paragraphs: '<p>See our full list of Queens’ scholarships</p>'
+  -
+    type: pillGroupSection
+    heading: Financial Aid
+    items:
+      -
+        heading: Most Royals Recieve Aid
+        paragraphs: <p>98% of students receive financial aid.</p>
+      -
+        heading: Merit Scholarships
+        paragraphs: <p>15 additional types of merit scholarships available</p>
+      -
+        heading: All Considered for Scholarships
+        paragraphs: '<p>100% of students are considered for scholarships.</p>'
+      -
+        heading: Pell Grant
+        paragraphs: '<p>Just over 1 out of 4 Royals received this grant in 2020.</p><p>*The Pell Grant is based on exceptional financial need, and is the largest federal grant program for undergraduates.</p>'
+  -
+    type: overview
+    variant: blue
+    subheading: FAQ
+    heading: Real Questions. Real Families. Real Answers.
+    paragraphs: '<p>We never want you to feel alone in making the decision to become a Royal. Our faculty and staff will always be here to support you throughout your time at Queens. So, we’ve reached out to students, family, and faculty who have been in your shoes to help compile a list of answers to their most pressing questions. Whether it’s your first time going through the enrollment process or your tenth, we’re here to help. And if you’ve got a question that’s not covered, please feel free to reach out!</p>'
+    items:
+      -
+        heading: What’s it like to be a queens student?
+        paragraphs: <p>Queens school spirit is real. Royals always rise to the occasion and show up for sports games and attend on-campus events like Casino Night and the Spring Carnival. And the school spirit doesn’t end there. We have over 70 clubs and organizations to choose from, and if you can’t find one that sparks your interest—start your own! Queens students also take full advantage of being in Charlotte, and spend plenty of time exploring trendy neighborhoods like NoDa and Plaza Midwood. If you want to experience a first-hand feel for our campus check out our Instagram and TikTok @queensuniv, or schedule a visit today.</p>
+      -
+        heading: What’s campus like?
+        paragraphs: <p>Our campus is a calming green space located in the Charlotte neighborhood of Myers Park. One of the perks of going to a smaller university is that you’re never more than a five-minute walk from your best friend’s dorm or a ten-minute drive from the city. If you’d like a sneak peek of what our residence halls look like, check out our dorm tour walkthrough on YouTube!</p>
+      -
+        heading: What’s a gen ed and how is it different here?
+        paragraphs: <p>When you hear “gen ed,” an assortment of random classes might come to mind. And at many universities, that’s still the case. But in order for us to truly deliver on our motto of “not to be served, but to serve,” we approached gen ed a little differently. Our general educational program functions so that you’ll get to be a part of three different learning communities, which are groups of classes that focus on examining one topic from various different lenses. This will allow you to connect with and develop a deep, real-world understanding of some society’s most complex issues.</p>
+      -
+        heading: Do Queens students get internships and job opportunities?
+        paragraphs: <p>100% of our undergraduates complete at least one internship before graduating. Which makes them 35% more likely to get a job offer after graduation than those without internship experience (zippia.com). So, it’s not a question of if they’ll intern and land jobs, but where—and the opportunities are endless. Royals have worked for companies like Atrium Health, Bank of America, Deloitte, Fox Sports, Google, L’Oreal Paris, Walt Disney World, and more!</p>
+      -
+        heading: What about study abroad opportunities?
+        paragraphs: <p>We want as many students as possible to become global citizens. So, we make sure that the majority of study abroad costs are embedded in tuition to make it more accessible. We also have a wide range of programs to choose from, so you can find the abroad experience that works best for you. Students can choose from two-to-three-week programs, summer programs, or a full semester.</p>
+      -
+        heading: What are the benefits of studying abroad?
+        paragraphs: '<p>Aside from cultural experiences and exploration, there are several skills developed while studying abroad that make you more desirable to employers (for example: flexibility, adaptability, excellent communication, problem solving). Studying abroad also improves college completion rates, and according to research from IES Abroad 90% of students who studied abroad found their first job within 6 months of graduation.</p>'
+      -
+        heading: What are Charlotte's Biggest Industries?
+        paragraphs: <p>Government, banking, financial services, manufacturing, energy, automotive, health, technology, and retail.</p>
+      -
+        heading: What's the cost of living in Charlotte?
+        paragraphs: <p>The cost of living in Charlotte is lower than the national average (for cost of living and housing cost).</p>
+      -
+        heading: What is FAFSA?
+        paragraphs: <p>FAFSA is the largest provider of financial aid for college in the US.</p>
+      -
+        heading: What about Financial Aid? 
+        paragraphs: <p>We have a comprehensive FAQ all about financial aid here.</p><p>If you have any other questions please reach out!</p>
+  -
+    type: section
+    heading: Admissions Counselors
+    variant: neon
+    components:
+      -
+        type: mediaContextSection
+        items:
+          -
+            reversed: true
+            image:
+              src: ~/assets/images/saxophone.jpg
+              alt: man playing a saxophone
+              sizes:
+                desktop: ~/assets/images/saxophone.jpg
+                mobile: ~/assets/images/saxophone.jpg
+            heading: Who we are
+            paragraphs: "<p>Each of our admissions counselors has a specialty, whether that be working with transfer, undocumented, local, or international students. Check out our rolodex.</p>"
+          -
+            reversed: true
+            micro: true
+            image:
+              src: ~/assets/images/saxophone.jpg
+              alt: man playing a saxophone
+              sizes:
+                desktop: ~/assets/images/saxophone.jpg
+                mobile: ~/assets/images/saxophone.jpg
+            heading: When the relationship begins
+            paragraphs: "<p>Your relationship with our admissions team begins whenever it’s best for you! Sometimes that means as early as junior year of high school, but really, it’s whenever you’d like guidance or a helping hand.</p>"
+          -
+            micro: true
+            reversedtab: true
+            image:
+              src: ~/assets/images/saxophone.jpg
+              alt: man playing a saxophone
+              sizes:
+                desktop: ~/assets/images/saxophone.jpg
+                mobile: ~/assets/images/saxophone.jpg
+            heading: What we do
+            paragraphs: "<p>We’re a team of Queens experts dedicated to connecting you with career-making opportunities and any guidance you’ll need every step of the way.</p>"
+          -
+            image:
+              src: ~/assets/images/saxophone.jpg
+              alt: man playing a saxophone
+              sizes:
+                desktop: ~/assets/images/saxophone.jpg
+                mobile: ~/assets/images/saxophone.jpg
+            heading: You're Worth It
+            paragraphs: "<p>We’ve been in your shoes, and know that the college application process can feel overwhelming at times. So, we decided to build the support system we wish we had.</p>"
+      -
+        type: thumbnailCarousel
+        items:
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'

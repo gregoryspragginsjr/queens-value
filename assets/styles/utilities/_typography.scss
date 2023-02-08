@@ -13,6 +13,22 @@
 
 .paragraph-style-3 { @include paragraph-style-3(); }
 
+.text-wrap {
+  &--paragraph-style-1 p { @extend .paragraph-style-1; }
+
+  &--paragraph-style-2 p { @extend .paragraph-style-2; }
+
+  &--paragraph-style-3 {
+    p, ul { @extend .paragraph-style-3; }
+
+    li {
+      margin-left: 12px;
+      list-style-type: disc;
+      list-style-position: outside;
+    }
+  }
+}
+
 // Colors
 .text-light { color: $white; }
 
@@ -24,9 +40,17 @@
 /* ------------------------------------- */
 .heading-style-1 + .paragraph-style-1 { margin-top: 40px; }
 
+.heading-style-2 + .heading-style-1 { margin-top: 20px; }
+
+.heading-style-2 + .paragraph-style-1 { margin-top: 16px; }
+
 .heading-style-2 + .paragraph-style-2 { margin-top: 10px; }
 
-.heading-style-2 + .text-wrap { margin-top: 10px; }
+.heading-style-2 + .text-wrap--paragraph-style-1 { margin-top: 16px; }
+
+.heading-style-2 + .text-wrap--paragraph-style-3 { margin-top: 10px; }
+
+.paragraph-style-1 + .paragraph-style-1 { margin-top: 20px; }
 
 .paragraph-style-2 + .paragraph-style-2 { margin-top: 20px; }
 
