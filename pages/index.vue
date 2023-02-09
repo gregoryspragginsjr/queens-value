@@ -4,6 +4,7 @@
     v-for="(item, index) in components"
     :moduleData="item"
   />
+  <Footer />
 </template>
 
 <script>

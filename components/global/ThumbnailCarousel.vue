@@ -1,5 +1,14 @@
 <template>
   <div class="thumbnail-carousel">
+    <div
+      v-if="heading"
+      class="thumbnail-carousel__inner grid"
+    >
+      <h2
+        class="thumbnail-carousel__heading heading-style-1"
+        v-text="heading"
+      />
+    </div>
     <div class="thumbnail-carousel__inner grid">
       <div class="thumbnail-carousel__controls">
         <ul class="thumbnail-carousel__thumbnails">
@@ -48,6 +57,10 @@ export default {
     };
   },
   props: {
+    heading: {
+      type: String,
+      required: false,
+    },
     items: {
       type: Array,
       required: true,
@@ -61,6 +74,25 @@ export default {
 
 <style lang="scss">
 .thumbnail-carousel {
+  &__inner + &__inner {
+    margin-top: 80px;
+  }
+
+  &__heading {
+    grid-column: span 12 / span 12;
+    text-align: center;
+    color: $white;
+
+    .section--neon-gradient & {
+      color: $navy;
+    }
+
+    @include breakpoint(medium) {
+      grid-column: span 8 / span 8;
+      grid-column-start: 3;
+    }
+  }
+
   &__controls {
     grid-column: span 12 / span 12;
 
@@ -144,6 +176,10 @@ export default {
     opacity: 0;
     transform: translateY(30px);
     transition: $transition-default;
+
+    .section--neon-gradient & {
+      color: $navy;
+    }
 
     &.active {
       opacity: 1;

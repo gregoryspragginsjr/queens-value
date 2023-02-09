@@ -1,6 +1,12 @@
 <template>
-  <div class="section">
-    <div class="section__inner grid">
+  <div
+    class="section"
+    :class="{'section--neon-gradient': variant == 'neon-gradient'}"
+  >
+    <div
+      v-if="heading"
+      class="section__inner grid"
+    >
       <h2
         class="section__heading heading-style-1"
         :class="{'text-primary': variant == 'neon'}"
@@ -19,11 +25,11 @@ export default {
   props: {
     variant: {
       type: String,
-      required: true,
+      required: false,
     },
     heading: {
       type: String,
-      required: true,
+      required: false,
     },
     components: {
       type: Array,
@@ -37,7 +43,15 @@ export default {
 .section {
   padding: 80px 0;
   color: $white;
-  background-color: $navy;
+  background: $navy;
+
+  &--neon-gradient {
+    background: linear-gradient(180deg, $white 35.42%, $neon 100%);
+    
+    .squiggle {
+      stroke: $navy;
+    }
+  }
 
   &__inner {
     &.grid {
@@ -49,6 +63,10 @@ export default {
     grid-column: span 12 / span 12;
     text-align: center;
     color: $white;
+
+    .section--neon-gradient & {
+      color: $navy;
+    }
 
     @include breakpoint(medium) {
       grid-column: span 8 / span 8;

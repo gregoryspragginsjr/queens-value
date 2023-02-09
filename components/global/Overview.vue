@@ -4,8 +4,10 @@
     :class="{'overview--blue': variant == 'blue'}"
   >
     <div class="overview__main">
-      <SvgCrown class="overview__crown" />
-      <SvgCircle class="overview__circle" />
+      <SvgCrown v-if="variant == 'default'" class="overview__crown" />
+      <SvgCircle v-if="variant == 'default'" class="overview__circle" />
+      <SvgCandy v-if="variant == 'blue'" class="overview__candy" />
+      <SvgTree v-if="variant == 'blue'" class="overview__circle" />
       <div class="overview__inner grid">
         <div class="overview__intro">
           <div
@@ -57,6 +59,7 @@ export default {
     variant: {
       type: String,
       required: false,
+      default: 'default',
     },
     subheading: {
       type: String,
@@ -103,7 +106,8 @@ export default {
   }
 
   &__crown,
-  &__circle {
+  &__circle,
+  &__candy {
     position: absolute;
     top: 30px;
     width: 30px;
@@ -114,7 +118,8 @@ export default {
     }
   }
 
-  &__crown {
+  &__crown,
+  &__candy {
     left: 30px;
 
     @include breakpoint(medium) {
@@ -128,6 +133,10 @@ export default {
     @include breakpoint(medium) {
       right: 64px;
     }
+  }
+
+  &__candy {
+    width: 40px;
   }
 
   &__inner + &__inner {

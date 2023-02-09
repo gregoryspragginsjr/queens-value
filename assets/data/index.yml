@@ -330,3 +330,109 @@ components:
               alt: man playing a saxophone
             heading: Majors & Minors
             paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+  -
+    type: section
+    variant: neon-gradient
+    components:
+      -
+        type: thumbnailCarousel
+        heading: Working with Queens Admissions
+        items:
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+      -
+        type: SquiggleBorder
+      -
+        type: thumbnailCarousel
+        heading: Pro tips on the admissions process
+        items:
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Departments & Programs
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            break: true
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+          -
+            image:
+              src: /images/headshot.png
+              alt: man playing a saxophone
+            heading: Majors & Minors
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
