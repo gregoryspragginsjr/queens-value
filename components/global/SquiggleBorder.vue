@@ -1,5 +1,5 @@
 <template>
-  <div class="divider">
+  <div class="squiggle-divider">
     <div class="grid">
       <SvgSquiggle />
     </div>
@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss">
-.divider {
+.squiggle-divider {
   .squiggle {
     grid-column: span 12 / span 12;
 

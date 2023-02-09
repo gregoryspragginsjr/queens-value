@@ -73,6 +73,8 @@ components:
         heading: More to Do
         paragraphs: '<p>Charlotte’s a hub for food, culture, music, diversity, and professional sports teams.</p>'
   -
+    type: divider
+  -
     type: section
     heading: Academics at Queens
     components:
