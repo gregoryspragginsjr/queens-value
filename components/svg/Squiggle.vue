@@ -19,10 +19,6 @@
 
   svg {
     height: 100%;
-    animation-name: spin, depth;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
   }
 
   @keyframes spin {
