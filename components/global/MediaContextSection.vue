@@ -6,7 +6,7 @@
         class="media-context"
         :class="{'media-context--reversed': item.reversed, 'media-context--micro': item.micro, 'media-conntext--reversed-tab': item.reversedtab}"
       >
-        <div class="media-context__image">
+        <ScrubCurtain class="media-context__image">
           <picture>
             <source media="(min-width:768px)" :srcset="'/images/saxophone.jpg'">
             <img
@@ -15,22 +15,22 @@
               :alt="item.image.alt"
             />
           </picture>
-        </div>
-        <div class="media-context__context">
+        </ScrubCurtain>
+        <ScrubContainer class="media-context__context">
           <h2
             class="heading-style-2 text-primary"
             v-text="item.heading"
           />
           <div class="media-context__text text-wrap text-wrap--paragraph-style-3" v-html="item.paragraphs" />
-        </div>
+        </ScrubContainer>
       </div>
     </div>
-    <div class="media-context-section__inner grid">
+    <ScrubContainer class="media-context-section__inner grid">
       <div class="media-context-section__footer">
         <div class="media-context-section__caption">Queens University of Charlotte</div>
         <div class="media-context-section__caption">Royals Rise</div>
       </div>
-    </div>
+    </ScrubContainer>
   </div>
 </template>
 
@@ -196,6 +196,10 @@ export default {
 
       color: $white;
     }
+  }
+
+  .scrub-curtain__curtain {
+    background-color: $navy;
   }
 }
 

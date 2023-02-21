@@ -11,10 +11,10 @@
       </div>
     </div>
     <div class="hero__inner grid">
-      <div class="hero__secondary">
+      <ScrubContainer class="hero__secondary">
         <p><strong>W</strong>e know how special it is to have earned a spot on your list. And if you're reading this, you've probably got some big questions right about now. Good news is: we've got answers.</p>
         <p>Read on to find out why we're worth it, and how our admissions process is personalized and tailored to meet your individual needs.</p>
-      </div>
+      </ScrubContainer>
       <SvgRiseRoyals class="hero__rise-royals" />
     </div>
   </div>

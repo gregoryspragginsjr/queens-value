@@ -3,7 +3,7 @@
     class="section"
     :class="{'section--neon-gradient': variant == 'neon-gradient'}"
   >
-    <div
+    <ScrubContainer
       v-if="heading"
       class="section__inner grid"
     >
@@ -12,7 +12,7 @@
         :class="{'text-primary': variant == 'neon'}"
         v-text="heading"
       />
-    </div>
+    </ScrubContainer>
     <BaseModule
       v-for="(item, index) in components"
       :moduleData="item"

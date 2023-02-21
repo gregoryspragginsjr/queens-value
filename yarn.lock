@@ -2936,6 +2936,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
+"gsap@npm:@gsap/member":
+  version "3.11.4"
+  resolved "https://npm.greensock.com/@gsap%2fmember/-/member-3.11.4.tgz#19157cd3621d221a8346ae75c376ab0dafa4d879"
+  integrity sha512-bjCfGYNhqbuOiUCLC7hoAW5RJwu9PqoWqZXYeeQyWTHmNGR+olT1d/i+miHqF0bXSqPXLbKwwHhTvFiBYPEwIw==
+
 gzip-size@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-6.0.0.tgz#065367fd50c239c0671cbcbad5be3e2eeb10e462"

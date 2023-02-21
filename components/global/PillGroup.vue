@@ -1,7 +1,7 @@
 <template>
   <div class="pill-group">
     <div class="pill-group__inner grid">
-      <div class="pill-group__main">
+      <ScrubContainer class="pill-group__main">
         <h2
           class="pill-group__heading heading-style-1"
           v-text="heading"
@@ -11,10 +11,10 @@
           class="pill-group__paragraph paragraph-style-1"
           v-text="paragraph"
         />
-      </div>
+      </ScrubContainer>
       <div class="pill-group__secondary">
         <div class="pill-group__items">
-          <div
+          <ScrubContainer
             v-for="(item, index) in items"
             class="pill-group__item"
           >
@@ -26,7 +26,7 @@
               class="text-wrap text-wrap--paragraph-style-3"
               v-html="item.paragraphs"
             />
-          </div>
+          </ScrubContainer>
         </div>
       </div>
     </div>
@@ -90,12 +90,12 @@ export default {
   }
 
   &__heading {
-    padding: 40px 20px 30px;
+    padding: 40px 20px;
     border: 2px solid;
     border-radius: 200px;
 
     @include breakpoint(medium) {
-      padding: 40px 60px 30px;
+      padding: 40px 60px;
     }
   }
 

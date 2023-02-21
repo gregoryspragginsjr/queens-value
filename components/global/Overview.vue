@@ -10,28 +10,34 @@
       <SvgTree v-if="variant == 'blue'" class="overview__circle" />
       <div class="overview__inner grid">
         <div class="overview__intro">
-          <div
+          <ScrubContainer
             class="heading-style-2"
             v-text="subheading"
           />
-          <h2
-            class="heading-style-1"
-            v-text="heading"
-          />
-          <SvgSquiggle class="overview__squiggle" />
-          <div
-            class="text-wrap text-wrap--paragraph-style-1"
-            v-html="paragraphs"
-          />
+          <ScrubContainer class="overview__heading">
+            <h2
+              class="heading-style-1"
+              v-text="heading"
+            />
+          </ScrubContainer>
+          <ScrubContainer>
+            <SvgSquiggle class="overview__squiggle" />
+          </ScrubContainer>
+          <ScrubContainer>
+            <div
+              class="text-wrap text-wrap--paragraph-style-1"
+              v-html="paragraphs"
+            />
+          </ScrubContainer>
         </div>
       </div>
       <div class="overview__inner grid">
         <div class="overview__items">
-          <div
+          <OverviewItem
             v-for="(item, index) in items"
             class="overview__item"
           >
-            <div class="overview__column">
+            <ScrubContainer class="overview__column overview__heading-group">
               <h3
                 class="heading-style-2"
                 v-text="item.heading"
@@ -41,12 +47,12 @@
                 class="paragraph-style-1"
                 v-text="item.subheading"
               />
-            </div>
+            </ScrubContainer>
             <div
               class="overview__column text-wrap--paragraph-style-3"
               v-html="item.paragraphs"
             />
-          </div>
+          </OverviewItem>
         </div>
       </div>
     </div>
@@ -155,6 +161,10 @@ export default {
     @include breakpoint(large) {
       padding: 0 60px;
     }
+  }
+
+  &__heading {
+    margin-top: 20px;
   }
 
   &__squiggle {

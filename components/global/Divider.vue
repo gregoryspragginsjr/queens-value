@@ -15,7 +15,7 @@
   &__main {
     display: flex;
     justify-content: space-between;
-    padding: 4px 50px 0;
+    padding: 4px 50px;
     transform: translateY(-50%);
     background: linear-gradient(90deg, $gold 0%, $neon 100%);
     clip-path: polygon(5% 0, 100% 0, 100% 50%, 95% 100%, 0 100%, 0% 50%);

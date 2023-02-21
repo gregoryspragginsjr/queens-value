@@ -1,6 +1,6 @@
 <template>
   <div class="thumbnail-carousel">
-    <div
+    <ScrubContainer
       v-if="heading"
       class="thumbnail-carousel__inner grid"
     >
@@ -8,7 +8,7 @@
         class="thumbnail-carousel__heading heading-style-1"
         v-text="heading"
       />
-    </div>
+    </ScrubContainer>
     <div class="thumbnail-carousel__inner grid">
       <div class="thumbnail-carousel__controls">
         <ul class="thumbnail-carousel__thumbnails">

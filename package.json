@@ -14,6 +14,7 @@
   "dependencies": {
     "@nuxt/content": "^2.4.3",
     "@nuxt/webpack-builder": "^3.1.2",
+    "gsap": "npm:@gsap/member",
     "js-yaml-loader": "^1.2.2",
     "json-loader": "^0.5.7",
     "sass": "^1.58.0",
