@@ -114,6 +114,10 @@ export default {
     @include breakpoint(medium) {
       display: grid;
     }
+
+    &:nth-child(1) {
+      min-height: 100vh;
+    }
   }
 
   &__inner + &__inner {
@@ -288,7 +292,7 @@ export default {
   }
 
   &__you {
-    animation-delay: 1.2s;
+    animation-delay: 1.4s;
   }
 
   &__rise-royals {
