@@ -4,9 +4,9 @@
       <div class="hero__main">
         <a href="" target="_blank"><SvgLogo class="hero__logo" /></a>
         <h1 class="hero__heading">
-          <span class="hero__line hero__line1"><span class="hero__q">Q</span>ueens</span> 
-          <span class="hero__line hero__line2">is <span class="hero__worth"><span class="hero__w">W</span>orth</span> <span class="hero__it">It</span></span> 
-          <span class="hero__line hero__line3"><span class="hero__and">and So Are</span> You</span> 
+          <span class="hero__line hero__line1" ref="line1"><span class="hero__queens"><span class="hero__q">Q</span>ueens</span></span> 
+          <span class="hero__line hero__line2" ref="line2"><span class="hero__is-worth-it">is <span class="hero__worth"><span class="hero__w">W</span>orth</span> <span class="hero__it">It</span></span></span> 
+          <span class="hero__line hero__line3" ref="line3"><span class="hero__and">and So Are</span> <span class="hero__you">You</span></span> 
         </h1>
       </div>
     </div>
@@ -21,11 +21,75 @@
 </template>
 
 <script>
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
-  props: {
-    
+  mounted() {
+    setTimeout(() => {
+      this.animate();
+    }, 1000);
   },
+  updated() {
+    this.animate();
+  },
+  methods: {
+    animate() {
+      const animationTarget = this.$refs.line1;
+      const animationTarget2 = this.$refs.line2;
+      const animationTarget3 = this.$refs.line3;
+
+      gsap.to(
+        animationTarget,
+        {
+          scrollTrigger: {
+            trigger: animationTarget,
+            toggleActions: 'play none none none',
+            start: 'top 2%',
+            end: 'bottom 2%',
+            scrub: 1,
+          },
+          x: '-200px',
+          ease: 'power3.easeInOut',
+          duration: 2,
+        }
+      );
+
+      gsap.to(
+        animationTarget2,
+        {
+          scrollTrigger: {
+            trigger: animationTarget2,
+            toggleActions: 'play none none none',
+            start: 'top 2%',
+            end: 'bottom 2%',
+            scrub: 1,
+          },
+          x: '400px',
+          ease: 'power3.easeInOut',
+          duration: 2,
+        }
+      );
+
+      gsap.to(
+        animationTarget3,
+        {
+          scrollTrigger: {
+            trigger: animationTarget3,
+            toggleActions: 'play none none none',
+            start: 'top 2%',
+            end: 'bottom 2%',
+            scrub: 1,
+          },
+          x: '-400px',
+          ease: 'power3.easeInOut',
+          duration: 2,
+        }
+      );
+    }
+  }
 }
 </script>
 
@@ -139,6 +203,7 @@ export default {
 
   &__line2 {
     justify-content: space-between;
+    animation-delay: 0.4s;
 
     @include breakpoint(large) {
       justify-content: flex-end;
@@ -154,6 +219,16 @@ export default {
     @include breakpoint(medium) {
       margin-top: 120px;
     }
+  }
+
+  &__queens,
+  &__is-worth-it,
+  &__and,
+  &__you {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
   }
 
   &__worth {
@@ -189,10 +264,15 @@ export default {
 
   &__and {
     font-size: rem-calc(34px);
+    animation-delay: 0.8s;
 
     @include breakpoint(medium) {
       font-size: rem-calc(56px);
     }
+  }
+
+  &__you {
+    animation-delay: 1.2s;
   }
 
   &__rise-royals {
@@ -211,5 +291,11 @@ export default {
       margin-top: 0;
     }
   }
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50%  { transform: translateY(15px); }
+  100%   { transform: translateY(-0px); }   
 }
 </style>
