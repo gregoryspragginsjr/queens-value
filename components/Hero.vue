@@ -101,6 +101,7 @@ export default {
     url('~/assets/images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 
   @include breakpoint(medium) {
     padding: 28px 0 180px;
@@ -109,7 +110,6 @@ export default {
   &__inner {
     display: block;
     position: relative;
-    overflow: hidden;
 
     @include breakpoint(medium) {
       display: grid;
