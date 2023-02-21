@@ -154,7 +154,7 @@ export default {
   &__slides {
     position: relative;
     grid-column: span 12 / span 12;
-    height: 440px;
+    height: 500px;
 
     @include breakpoint(medium) {
       height: 260px;

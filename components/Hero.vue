@@ -109,6 +109,7 @@ export default {
   &__inner {
     display: block;
     position: relative;
+    overflow: hidden;
 
     @include breakpoint(medium) {
       display: grid;
@@ -225,10 +226,25 @@ export default {
   &__is-worth-it,
   &__and,
   &__you {
+    display: block;
     animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+  }
+
+  &__is-worth-it {
+    @include breakpoint(medium) {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 100%;
+    }
+  
+    @include breakpoint(large) {
+      display: block;
+      width: auto;
+    }
   }
 
   &__worth {

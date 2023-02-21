@@ -41,7 +41,7 @@ export default {
 
 <style lang="scss">
 .section {
-  padding: 80px 0;
+  padding: 120px 0;
   color: $white;
   background: $navy;
 
