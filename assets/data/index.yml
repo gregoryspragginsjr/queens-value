@@ -344,8 +344,10 @@ components:
             image:
               src: /images/headshot.png
               alt: man playing a saxophone
-            heading: Majors & Minors
-            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+            paragraphs: '<p>“You are not just a number, you are a person, and you are known in the school.” While working with our admissions team, Everton was pleasantly surprised by the humanity of it all. Every touch point throughout your journey is done by real-hard working humans from our admissions office who are rooting for your success.</p>'
+            byline:
+              name: Everton Brown
+              title: Parent of Matthew Brown ‘24
           -
             image:
               src: /images/headshot.png

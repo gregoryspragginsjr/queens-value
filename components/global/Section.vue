@@ -46,7 +46,7 @@ export default {
   background: $navy;
 
   &--neon-gradient {
-    background: linear-gradient(180deg, $white 35.42%, $gold 100%);
+    background: linear-gradient(180deg, $white 35.42%, #eceda3 100%);
     
     .squiggle {
       stroke: $navy;

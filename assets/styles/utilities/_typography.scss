@@ -6,6 +6,8 @@
 
 .heading-style-2 { @include heading-style-2() }
 
+.heading-style-2xl { @include heading-style-2xl() }
+
 // Paragraph
 .paragraph-style-1 { @include paragraph-style-1(); }
 
@@ -42,13 +44,17 @@
 
 .heading-style-2 + .heading-style-1 { margin-top: 20px; }
 
-.heading-style-2 + .paragraph-style-1 { margin-top: 16px; }
+.heading-style-2 + .paragraph-style-1 { margin-top: 24px; }
 
 .heading-style-2 + .paragraph-style-2 { margin-top: 10px; }
 
-.heading-style-2 + .text-wrap--paragraph-style-1 { margin-top: 16px; }
+.heading-style-2 + .text-wrap--paragraph-style-1 { margin-top: 24px; }
 
 .heading-style-2 + .text-wrap--paragraph-style-3 { margin-top: 10px; }
+
+.heading-style-2xl + .paragraph-style-1 { margin-top: 32px; }
+
+.heading-style-2xl + .text-wrap--paragraph-style-1 { margin-top: 32px; }
 
 .paragraph-style-1 + .paragraph-style-1 { margin-top: 20px; }
 

@@ -36,13 +36,24 @@
           :class="{'active': activeSlide == item}"
         >
           <h3
-            class="heading-style-2"
+            v-if="item.heading"
+            class="heading-style-2xl"
             v-text="item.heading"
           />
           <div
             class="text-wrap text-wrap--paragraph-style-1"
             v-html="item.paragraphs"
           />
+          <div v-if="item.byline" class="thumbnail-carousel__byline">
+            <div
+              class="heading-style-2"
+              v-text="item.byline.name"
+            />
+            <div
+              class="paragraph-style-3"
+              v-text="item.byline.title"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -171,7 +182,11 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     width: 100%;
+    height: 100%;
     color: $white;
     opacity: 0;
     transform: translateY(30px);
@@ -189,6 +204,10 @@ export default {
 
   .text-wrap p {
     @extend .paragraph-style-1;
+  }
+
+  &__byline {
+    margin-top: 30px;
   }
 }
 </style>
