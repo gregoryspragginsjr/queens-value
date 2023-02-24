@@ -12,7 +12,9 @@
     grid-column: span 12 / span 12;
 
     .squiggle__window {
-      margin: 0 auto;
+      @include breakpoint(medium) {
+        margin: 0 auto;
+      }
     }
   }
 }

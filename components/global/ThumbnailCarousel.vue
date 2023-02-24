@@ -22,8 +22,12 @@
               @click="activeSlide = item"
               class="thumbnail-carousel__btn"
             >
-              <div class="thumbnail-carousel__thumbnail">
+              <div
+                class="thumbnail-carousel__thumbnail"
+                :class="{ 'thumbnail-carousel__thumbnail--active': activeSlide == item }"
+              >
                 <img :src="item.image.src" :alt="item.image.alt" />
+                <img :src="item.image.hover" />
               </div>
             </button>
           </li>
@@ -155,10 +159,33 @@ export default {
   }
 
   &__thumbnail {
+    position: relative;
     width: 100px;
 
     @include breakpoint(medium) {
       width: 144px;
+    }
+
+    img {
+      transition: $transition-default;
+    }
+
+    img:nth-child(2) {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: scale(1.15);
+    }
+
+    &--active {
+      img:nth-child(1) {
+        opacity: 0;
+      }
+
+      img:nth-child(2) {
+        opacity: 1;
+      }
     }
   }
 
@@ -184,13 +211,17 @@ export default {
     left: 0;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     height: 100%;
     color: $white;
     opacity: 0;
     transform: translateY(30px);
     transition: $transition-default;
+
+    @include breakpoint(large) {
+      justify-content: center;
+    }
 
     .section--neon-gradient & {
       color: $navy;
