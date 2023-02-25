@@ -51,7 +51,7 @@
     font-family: $font-primary;
     font-size: rem-calc(80px);
     font-weight: 1000;
-    line-height: calc(110 / 98);
+    line-height: calc(90 / 98);
     text-transform: uppercase;
     color: $neon;
     margin: 0 auto;
@@ -81,6 +81,7 @@
   &__t {
     font-family: 'ofform', serif;
     font-size: rem-calc(100px);
+    line-height: 0;
 
     @include breakpoint(medium) {
       font-size: rem-calc(180px);

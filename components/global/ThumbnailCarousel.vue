@@ -160,7 +160,7 @@ export default {
 
   &__thumbnail {
     position: relative;
-    width: 100px;
+    width: 90px;
 
     @include breakpoint(medium) {
       width: 144px;
@@ -175,7 +175,7 @@ export default {
       position: absolute;
       top: 0;
       left: 0;
-      transform: scale(1.15);
+      transform: scale(1.14) translateY(-0.9px);
     }
 
     &--active {

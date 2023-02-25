@@ -8,10 +8,10 @@
       >
         <ScrubCurtain class="media-context__image">
           <picture>
-            <source media="(min-width:768px)" :srcset="'/images/saxophone.jpg'">
+            <source media="(min-width:768px)" :srcset="item.image.src">
             <img
               class="object-cover"
-              :src="'/images/saxophone.jpg'"
+              :src="item.image.src"
               :alt="item.image.alt"
             />
           </picture>
