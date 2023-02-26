@@ -293,6 +293,7 @@ export default {
 
   &__rise-royals {
     display: block;
+    grid-column: span 12 / span 12;
     width: 68px;
     fill: $neon;
     margin-top: 80px;
