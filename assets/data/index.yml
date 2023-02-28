@@ -83,55 +83,55 @@ components:
         items:
           -
             image:
-              src: /images/headshot_a-mak.png
-              hover: /images/headshot_a-mak-hover.png
-              alt: a mak
+              src: /images/headshot_majors.png
+              hover: /images/headshot_majors-hover.png
+              alt: girl smiling
             heading: Majors & Minors
             paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
           -
             image:
-              src: /images/headshot_r-moore.png
-              hover: /images/headshot_r-moore-hover.png
-              alt: r moore
+              src: /images/headshot_blaire.png
+              hover: /images/headshot_blaire-hover.png
+              alt: 
             heading: Blaire College of Health
             paragraphs: '<p>The healthcare industry generates more new jobs from year to year than any other industry. And we don’t take the responsibility of creating healthcare professionals lightly. To stay ahead of the curve, we offer eight comprehensive healthcare programs in addition to our Presbyterian School of Nursing. Graduates from this program are highly sought after, with 100% job placement within 9 months of graduating.</p>'
           -
             break: true
           -
             image:
-              src: /images/headshot_t-piest.png
-              hover: /images/headshot_t-piest-hover.png
+              src: /images/headshot_presbyterian.png
+              hover: /images/headshot_presbyterian-hover.png
               alt: t piest
             heading: Presbyterian School of Nursing
             paragraphs: '<p>The next generation of nurses starts here. And we’ve got the stats to prove it, Royals graduating from this program had 100% job placement within 9 months of graduating. What else sets our school apart? Aside from our proximity to two of the state’s leading healthcare systems, we also have The Hunt Nursing Simulation Center—the award-winning, hands-on facility where Royals can put their learning into action. High school students also have the opportunity to apply for direct admission into our prestigious program.</p>'
           -
             image:
-              src: /images/headshot_m-antley.png
-              hover: /images/headshot_m-antley-hover.png
-              alt: m antley
+              src: /images/headshot_cato.png
+              hover: /images/headshot_cato-hover.png
+              alt: piano
             heading: Cato School of Education
             paragraphs: '<p>We all still remember the names of our favorite elementary-school teachers. And that’s because teachers are kind of a huge deal. They have the power to change student trajectories, to mold minds—the Cato School of Education is home to these ambitious lifelong learners. And educators of a Royal caliber are in high demand, in fact 100% of graduates were offered a job before graduation. </p>'
           -
             image:
-              src: /images/headshot_a-powell.png
-              hover: /images/headshot_a-powell-hover.png
-              alt: a powell
+              src: /images/headshot_knight.png
+              hover: /images/headshot_knight-hover.png
+              alt: broadcaster
             heading: Knight School of Communication
             paragraphs: '<p>Here’s the scoop—this college is all about the story. Getting it, analyzing it, and carefully constructing a powerful way to tell it. Whether you’re a future go-getter journalist, refined multimedia expert, or a PR powerhouse, this is the place for you.</p><p>Here’s the scoop—this college is all about the story. Getting it, analyzing it, and carefully constructing a powerful way to tell it. Whether you’re a future go-getter journalist, refined multimedia expert, or a PR powerhouse, this is the place for you. And when you choose Queens, your story is guaranteed to be a successful one. That’s why 100% of grads were employed or in grad school within 12 months. </p>'
           -
             break: true
           -
             image:
-              src: /images/headshot_a-glover.png
-              hover: /images/headshot_a-glover-hover.png
-              alt: a glover
+              src: /images/headshot_arts.png
+              hover: /images/headshot_arts-hover.png
+              alt: arts and sciences
             heading: College of Arts & Sciences
             paragraphs: '<p>The College of Arts & Sciences will prepare you to do it all. Here, you’ll find the widest range of majors spanning from music to biochemistry to legal. This college is the great connector between arts, sciences, and humanities led by award-winning faculty mentors. And the results speak for themselves—100% of undergrads were employed within 12 months.</p>'
           -
             image:
-              src: /images/headshot_l-holmes.png
-              hover: /images/headshot_l-holmes-hover.png
-              alt: l holmes
+              src: /images/headshot_mccoll.png
+              hover: /images/headshot_mccoll-hover.png
+              alt: business school
             heading: Mccoll School of Business
             paragraphs: '<p>In a field that’s always evolving, it can be challenging to keep up—but the McColl School of Business is built different. We’re based in the number #2 financial hub in the country behind New York City. Here, you’ll create unmatched connections and grow your network—all in a city rich with career opportunities in established industries as well as emerging ones. The stats speak for themselves, with 100% of undergraduate students employed or in grad school within 9 months.</p>'
       -
@@ -296,14 +296,14 @@ components:
           -
             image:
               src: /images/headshot_a-mak.png
-              hover: /images/headshot_a-mak-hover.png
+              hover: /images/headshot_a-mak-hover-w.png
               alt: a mak
             heading: Alvan Makoundi-Tchia ’18
             paragraphs: '<ul><li>Admissions Counselor, International Support Specialist</li><li>123-456-7890</li><li>makoundi-tchia@queens.edu</li><li>Primarily works with transfer students and international students</li></ul>'
           -
             image:
               src: /images/headshot_r-moore.png
-              hover: /images/headshot_r-moore-hover.png
+              hover: /images/headshot_r-moore-hover-w.png
               alt: r moore
             heading: Raygon Moore
             paragraphs: '<ul><li>Admissions Counselor</li><li>704-337-2358</li><li>moorer4@queens.edu</li><li>Primarily works with current and prospective students</li></ul>'
@@ -312,21 +312,21 @@ components:
           -
             image:
               src: /images/headshot_t-piest.png
-              hover: /images/headshot_t-piest-hover.png
+              hover: /images/headshot_t-piest-hover-w.png
               alt: t piest
             heading: Trish Priest
             paragraphs: '<ul><li>Director, Undergraduate Admissions</li><li>704-688-2754</li><li>priestt@queens.edu</li></ul>'
           -
             image:
               src: /images/headshot_m-antley.png
-              hover: /images/headshot_m-antley-hover.png
+              hover: /images/headshot_m-antley-hover-w.png
               alt: m antley
             heading: Meredith Antley
             paragraphs: '<ul><li>Admissions Counselor</li><li>704-337-2356</li><li>antleym@queens.edu</li><li>Primarily works with prospective students</li></ul>'
           -
             image:
               src: /images/headshot_a-powell.png
-              hover: /images/headshot_a-powell-hover.png
+              hover: /images/headshot_a-powell-hover-w.png
               alt: a powell
             heading: Ahmon Powell
             paragraphs: '<ul><li>Assistant Director of Admissions</li><li>704-337-2371</li><li>powella2@queens.edu</li></ul>'
@@ -335,14 +335,14 @@ components:
           -
             image:
               src: /images/headshot_a-glover.png
-              hover: /images/headshot_a-glover-hover.png
+              hover: /images/headshot_a-glover-hover-w.png
               alt: a glover
             heading: Aly Glover
             paragraphs: '<ul><li>Senior Assistant Director of Admissions</li><li>704-337-2233</li><li>glovera2@queens.edu</li><li>Primarily works with students from Charlotte and Mecklenburg County, as well as:</li><li>Students with more financial need</li><li>First-generation students</li><li>Undocumented students</li></ul>'
           -
             image:
               src: /images/headshot_l-holmes.png
-              hover: /images/headshot_l-holmes-hover.png
+              hover: /images/headshot_l-holmes-hover-w.png
               alt: l holmes
             heading: Lauren Holmes
             paragraphs: '<ul><li>Admissions Counselor</li><li>704-337-2336</li><li>holmesl2@queens.edu</li><li>Primarily works with international students</li><li>Spanish speaking</li></ul>'

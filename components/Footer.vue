@@ -7,8 +7,8 @@
       </div>
     </div>
     <div class="footer__inner grid">
-      <a class="footer__cta" href="" target="_blank">Contact Financial Aid</a>
-      <a class="footer__cta" href="" target="_blank">Contact Admissions Counseling</a>
+      <a class="footer__cta" href="mailto:finaid@queens.edu" target="_blank">Contact Financial Aid</a>
+      <a class="footer__cta" href="mailto:admissions@queens.edu" target="_blank">Contact Admissions Counseling</a>
     </div>
     <div class="footer__inner grid">
       <div class="footer__links">
@@ -17,14 +17,14 @@
             <SvgLogo2 class="footer__logo" />
           </a>
           <ul class="footer__main-nav">
-            <li><a href="/" target="_blank">Apply</a></li>
-            <li><a href="/" target="_blank">Visit</a></li>
-            <li><a href="/" target="_blank">Insta</a></li>
+            <li><a href="https://www.queens.edu/admissions-aid/freshman/" target="_blank">Apply</a></li>
+            <li><a href="https://www.queens.edu/about/visit/" target="_blank">Visit</a></li>
+            <li><a href="https://www.instagram.com/queensuniv/?hl=en" target="_blank">Insta</a></li>
           </ul>
         </div>
         <ul class="footer__utility-nav">
-          <li><a href="/" target="_blank">Copyright</a></li>
-          <li><a href="/" target="_blank">Privacy Policy</a></li>
+          <li><a href="https://www.queens.edu/about/policies/copyright.html" target="_blank">Copyright</a></li>
+          <li><a href="https://www.queens.edu/about/policies/privacy-policy.html" target="_blank">Privacy Policy</a></li>
           <li><a href="https://www.queens.edu/" target="_blank">Queens.edu</a></li>
         </ul>
       </div>
