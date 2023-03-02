@@ -104,6 +104,7 @@ export default {
     url('~/assets/images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
 
   @include breakpoint(medium) {
