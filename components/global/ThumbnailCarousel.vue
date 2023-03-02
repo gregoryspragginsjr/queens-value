@@ -27,7 +27,7 @@
                 :class="{ 'thumbnail-carousel__thumbnail--active': activeSlide == item }"
               >
                 <img :src="item.image.src" :alt="item.image.alt" />
-                <img :src="item.image.hover" />
+                <img :src="item.image.hover" role="presentation" alt="" />
               </div>
             </button>
           </li>

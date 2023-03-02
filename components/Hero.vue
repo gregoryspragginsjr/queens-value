@@ -2,7 +2,10 @@
   <div class="hero">
     <div class="hero__inner grid">
       <div class="hero__main">
-        <a href="" target="_blank"><SvgLogo class="hero__logo" /></a>
+        <a href="https://www.queens.edu/" target="_blank">
+          <SvgLogo class="hero__logo" />
+          <span class="sr-only">Link to Queens.edu</span>
+        </a>
         <h1 class="hero__heading">
           <span class="hero__line hero__line1" ref="line1"><span class="hero__queens"><span class="hero__q">Q</span>ueens</span></span> 
           <span class="hero__line hero__line2" ref="line2"><span class="hero__is-worth-it">is <span class="hero__worth"><span class="hero__w">W</span>orth</span> <span class="hero__it">It</span></span></span> 

@@ -92,7 +92,7 @@ components:
             image:
               src: /images/headshot_blaire.png
               hover: /images/headshot_blaire-hover.png
-              alt: 
+              alt: Nurse with patient
             heading: Blaire College of Health
             paragraphs: '<p>The healthcare industry generates more new jobs from year to year than any other industry. And we don’t take the responsibility of creating healthcare professionals lightly. To stay ahead of the curve, we offer eight comprehensive healthcare programs in addition to our Presbyterian School of Nursing. Graduates from this program are highly sought after, with 100% job placement within 9 months of graduating.</p>'
           -

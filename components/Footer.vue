@@ -15,6 +15,7 @@
         <div class="footer__group">
           <a href="https://www.queens.edu/" target="_blank">
             <SvgLogo2 class="footer__logo" />
+            <span class="sr-only">Link to Queens.edu</span>
           </a>
           <ul class="footer__main-nav">
             <li><a href="https://www.queens.edu/admissions-aid/freshman/" target="_blank">Apply</a></li>
