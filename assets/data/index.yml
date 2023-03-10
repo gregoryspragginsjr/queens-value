@@ -11,7 +11,7 @@ components:
             desktop: /images/media-context_1.jpg
             mobile: /images/media-context_1.jpg
         heading: Not to be served, but to serve
-        paragraphs: "<p>Those aren't just words our students live by. All Royals rise to show up for our community in every way we can.</p><p>Including supporting you and your student through the application process in whatever way is best for you—whether it be a phone call, email, text, or a chat over coffee.</p>"
+        paragraphs: "<p>Those aren't just words our students live by. All Royals rise to show up for our community in every way we can.</p><p>Including supporting you and your student through the college search in whatever way is best for you—whether it be a phone call, email, text, or a chat over coffee.</p>"
       -
         reversed: true
         micro: true
@@ -33,7 +33,7 @@ components:
             desktop: /images/media-context_3.jpg
             mobile: /images/media-context_3.jpg
         heading: Academic Life
-        paragraphs: "<p>These next four years, you’ll look to lay a foundation for success later in life (no pressure, right?) It starts with choosing your path. And although our wide array of 41 majors and 58 minors may feel overwhelming at times, our staff and faculty are here to help guide you every step of the way. To round out your time at Queens, our team will help connect you with internships, study abroad opportunities, and civic engagement experiences—regardless of the program you choose.</p>"
+        paragraphs: "<p>These next four years, you’ll look to lay a foundation for success later in life (no pressure, right?) It starts with choosing your path. And although our wide array of 41 majors and 58 minors may feel overwhelming at times, our faculty and staff are here to help guide you every step of the way. To round out your time at Queens, our team will help connect you with internships, study abroad opportunities, and civic engagement experiences—regardless of the program you choose.</p>"
       -
         image:
           src: /images/media-context_4.jpg
@@ -149,7 +149,7 @@ components:
             paragraphs: '<p>Our gen ed program is purposefully structured so that you’re learning how to approach real-life issues with the necessary nuances that will help you be effective. This will allow you to develop skills like critical thinking, empathy, and problem solving that are essential when it comes to entering the workforce.</p>'
           -
             heading: Set Up for Success
-            paragraphs: '<p>96% of 2020 traditional undergrads are employed, in grad school or service within 12 months.</p>'
+            paragraphs: '<p>96% of 2021 traditional undergrads are employed, in grad school or service within 6 months.</p>'
   -
     type: overview
     subheading: What's the Cost?
@@ -213,7 +213,7 @@ components:
     items:
       -
         heading: What’s it like to be a queens student?
-        paragraphs: <p>Queens school spirit is real. Royals always rise to the occasion and show up for sports games and attend on-campus events like Casino Night and the Spring Carnival. And the school spirit doesn’t end there. We have over 70 clubs and organizations to choose from, and if you can’t find one that sparks your interest—start your own! Queens students also take full advantage of being in Charlotte, and spend plenty of time exploring trendy neighborhoods like NoDa and Plaza Midwood. If you want to experience a first-hand feel for our campus check out our Instagram and TikTok @queensuniv, or schedule a visit today.</p>
+        paragraphs: <p>Queens school spirit is real. Royals always rise to the occasion and show up for sports games and attend on-campus events like Casino Night and the Spring Carnival. And the school spirit doesn’t end there. We have over 40 clubs and organizations to choose from, and if you can’t find one that sparks your interest—start your own! Queens students also take full advantage of being in Charlotte, and spend plenty of time exploring trendy neighborhoods like NoDa and Plaza Midwood. If you want to experience a first-hand feel for our campus check out our Instagram and TikTok @queensuniv, or schedule a visit today.</p>
       -
         heading: What’s campus like?
         paragraphs: <p>Our campus is a calming green space located in the Charlotte neighborhood of Myers Park. One of the perks of going to a smaller university is that you’re never more than a five-minute walk from your best friend’s dorm or a ten-minute drive from the city. If you’d like a sneak peek of what our residence halls look like, check out our dorm tour walkthrough on YouTube!</p>
@@ -222,7 +222,7 @@ components:
         paragraphs: <p>When you hear “gen ed,” an assortment of random classes might come to mind. And at many universities, that’s still the case. But in order for us to truly deliver on our motto of “not to be served, but to serve,” we approached gen ed a little differently. Our general educational program functions so that you’ll get to be a part of three different learning communities, which are groups of classes that focus on examining one topic from various different lenses. This will allow you to connect with and develop a deep, real-world understanding of some society’s most complex issues.</p>
       -
         heading: Do Queens students get internships and job opportunities?
-        paragraphs: <p>100% of our undergraduates complete at least one internship before graduating. Which makes them 35% more likely to get a job offer after graduation than those without internship experience (zippia.com). So, it’s not a question of if they’ll intern and land jobs, but where—and the opportunities are endless. Royals have worked for companies like Atrium Health, Bank of America, Deloitte, Fox Sports, Google, L’Oreal Paris, Walt Disney World, and more!</p>
+        paragraphs: <p>100% of our undergraduates complete at least one internship before graduating. Which makes them 35% more likely to get a job offer after graduation than those without internship experience (zippia.com). So, it’s not a question of if you’ll intern and land jobs, but where—and the opportunities are endless. Royals have worked for companies like Atrium Health, Bank of America, Deloitte, Fox Sports, Google, L’Oreal Paris, Walt Disney World, and more!</p>
       -
         heading: What about study abroad opportunities?
         paragraphs: <p>We want as many students as possible to become global citizens. So, we make sure that the majority of study abroad costs are embedded in tuition to make it more accessible. We also have a wide range of programs to choose from, so you can find the abroad experience that works best for you. Students can choose from two-to-three-week programs, summer programs, or a full semester.</p>
