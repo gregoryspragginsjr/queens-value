@@ -3,7 +3,7 @@
     <div class="footer__inner grid">
       <div class="footer__main">
         <h2 class="footer__heading"><span class="footer__r">R</span>each Out <span class="footer__t">T</span>oday</h2>
-        <p class="footer__paragraph paragraph-style-1 text-light">You don’t need to be perfect for a school when there’s already a school that’s perfect for you</p>
+        <p class="footer__paragraph paragraph-style-1 text-light">You don’t need to be perfect for a school when there’s already a school that’s perfect for you.</p>
       </div>
     </div>
     <div class="footer__inner grid">

@@ -11,7 +11,7 @@ components:
             desktop: /images/media-context_1.jpg
             mobile: /images/media-context_1.jpg
         heading: Not to be served, but to serve
-        paragraphs: "<p>Those aren't just words our students live by. All Royals rise to show up for our community in every way we can.</p><p>Including supporting you and your student through the college search in whatever way is best for you—whether it be a phone call, email, text, or a chat over coffee.</p>"
+        paragraphs: "<p>Those aren’t just words our students live by. Whether it be a phone call, email, text, or a chat over coffee, our faculty and staff, (starting with the admissions counselors you meet), will guide you and your student through every step of the application process in whatever way is best for you.</p><p>Including supporting you and your student through the college search in whatever way is best for you—whether it be a phone call, email, text, or a chat over coffee.</p>"
       -
         reversed: true
         micro: true
@@ -22,7 +22,7 @@ components:
             desktop: /images/media-context_2.jpg
             mobile: /images/media-context_2.jpg
         heading: No two tours are the same
-        paragraphs: "<p>Each tour is personalized by your guide, who is a real-life Queens student. And while every guide is equipped with extensive knowledge, and can answer any question you may have, they tailor their tour by sharing real details and anecdotes about all things Queens.</p>"
+        paragraphs: "<p>Each tour is personalized by your guide, who is a real-life Queens student. And while every guide is equipped with extensive knowledge and can answer any question you may have, they tailor their tour by sharing real details and anecdotes about all things Queens.</p>"
       -
         micro: true
         reversedtab: true
@@ -33,7 +33,7 @@ components:
             desktop: /images/media-context_3.jpg
             mobile: /images/media-context_3.jpg
         heading: Academic Life
-        paragraphs: "<p>These next four years, you’ll look to lay a foundation for success later in life (no pressure, right?) It starts with choosing your path. And although our wide array of 41 majors and 58 minors may feel overwhelming at times, our faculty and staff are here to help guide you every step of the way. To round out your time at Queens, our team will help connect you with internships, study abroad opportunities, and civic engagement experiences—regardless of the program you choose.</p>"
+        paragraphs: "<p>These next four years, you’ll look to lay a foundation for success later in life (no pressure, right?) It starts with choosing your path. And although our wide array of 59 majors and 58 minors may feel overwhelming at times, our faculty and staff are here to help guide you every step of the way. To round out your time at Queens, our team will help connect you with internships, study abroad opportunities, and civic engagement experiences—regardless of the program you choose.</p>"
       -
         image:
           src: /images/media-context_4.jpg
@@ -46,14 +46,14 @@ components:
   -
     type: pillGroupSection
     heading: Charlotte and Queens
-    paragraph: '“Charlotte is the best city on earth.” Ahmon Powell, our Assistant Director of Admissions told us that. And we’ve got more than a few reasons to believe it’s true. Check out why Charlotte offers the perfect backdrop for students to succeed in:'
+    paragraph: '“Charlotte is the best city on earth.” Ahmon Powell, our assistant director of admissions told us that. We’ve got more than a few reasons to believe it’s true. Check out why Charlotte offers the perfect backdrop for students success:'
     items:
       -
         heading: 16th in population
-        paragraphs: <p>Charlotte is one of the fastest-growing cities on the east coast.</p>
+        paragraphs: <p>Charlotte is one of the fastest-growing cities on the East Coast.</p>
       -
         heading: Top 25 Media Market
-        paragraphs: <p>Charlotte has companies like ABC, ESPN, Live Nation Entertainment, Disney, and more.</p>
+        paragraphs: <p>Companies like ABC, ESPN, Live Nation Entertainment, Disney, and more all have Charlotte offices.</p>
       -
         heading: Top 2 Market
         paragraphs: '<p>Charlotte ranks #2 in the best areas for job-seeking college grads.</p>'
@@ -68,7 +68,7 @@ components:
         paragraphs: '<p>Charlotte’s home to one of the top ten fastest-growing tech talent markets in the US.</p>'
       -
         heading: Strong Healthcare
-        paragraphs: '<p>Charlotte is home to a booming healthcare industry that employs one in nine our region’s workforce (charlotteregion.com).</p>'
+        paragraphs: '<p>Charlotte is home to a booming healthcare industry that employs 1 in 9 of our region’s workforce (charlotteregion.com).</p>'
       -
         heading: More to Do
         paragraphs: '<p>Charlotte’s a hub for food, culture, music, diversity, and professional sports teams.</p>'
@@ -87,13 +87,13 @@ components:
               hover: /images/headshot_majors-hover.png
               alt: girl smiling
             heading: Majors & Minors
-            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from Conservation Biology to Music Therapy to Sport Management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program you choose, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
+            paragraphs: '<p>With a wide array of 41 majors and 59 minors, spanning from conservation biology to music therapy to sport management, we have the tools and resources to help you succeed in whatever path you choose.</p><p>Regardless of the program, we’ll work hard to help you get ready for the future by equipping you with real-world experiences, like internships and study abroad.</p>'
           -
             image:
               src: /images/headshot_blaire.png
               hover: /images/headshot_blaire-hover.png
               alt: Nurse with patient
-            heading: Blaire College of Health
+            heading: Blair College of Health
             paragraphs: '<p>The healthcare industry generates more new jobs from year to year than any other industry. And we don’t take the responsibility of creating healthcare professionals lightly. To stay ahead of the curve, we offer eight comprehensive healthcare programs in addition to our Presbyterian School of Nursing. Graduates from this program are highly sought after, with 100% job placement within 9 months of graduating.</p>'
           -
             break: true
@@ -103,21 +103,21 @@ components:
               hover: /images/headshot_presbyterian-hover.png
               alt: t piest
             heading: Presbyterian School of Nursing
-            paragraphs: '<p>The next generation of nurses starts here. And we’ve got the stats to prove it, Royals graduating from this program had 100% job placement within 9 months of graduating. What else sets our school apart? Aside from our proximity to two of the state’s leading healthcare systems, we also have The Hunt Nursing Simulation Center—the award-winning, hands-on facility where Royals can put their learning into action. High school students also have the opportunity to apply for direct admission into our prestigious program.</p>'
+            paragraphs: '<p>The next generation of nurses starts here. And we’ve got the stats to prove it: Royals graduating from this program have 100% job placement within 9 months of graduating. What else sets our school apart? Aside from our proximity to two of the state’s leading healthcare systems, we also have The Hunt Nursing Simulation Center—the award-winning, hands-on facility where Royals can put their learning into action. High school students also have the opportunity to apply for direct admission into our prestigious program.</p>'
           -
             image:
               src: /images/headshot_cato.png
               hover: /images/headshot_cato-hover.png
               alt: piano
             heading: Cato School of Education
-            paragraphs: '<p>We all still remember the names of our favorite elementary-school teachers. And that’s because teachers are kind of a huge deal. They have the power to change student trajectories, to mold minds—the Cato School of Education is home to these ambitious lifelong learners. And educators of a Royal caliber are in high demand, in fact 100% of graduates were offered a job before graduation. </p>'
+            paragraphs: '<p>We all still remember the names of our favorite elementary-school teachers. And that’s because teachers are kind of a huge deal. They have the power to change student trajectories, to mold minds—the Cato School of Education is home to these ambitious lifelong learners. And educators of a Royal caliber are in high demand. In fact, 100% of graduates were offered a job before graduation in 2021.</p>'
           -
             image:
               src: /images/headshot_knight.png
               hover: /images/headshot_knight-hover.png
               alt: broadcaster
             heading: Knight School of Communication
-            paragraphs: '<p>Here’s the scoop—this college is all about the story. Getting it, analyzing it, and carefully constructing a powerful way to tell it. Whether you’re a future go-getter journalist, refined multimedia expert, or a PR powerhouse, this is the place for you.</p><p>Here’s the scoop—this college is all about the story. Getting it, analyzing it, and carefully constructing a powerful way to tell it. Whether you’re a future go-getter journalist, refined multimedia expert, or a PR powerhouse, this is the place for you. And when you choose Queens, your story is guaranteed to be a successful one. That’s why 100% of grads were employed or in grad school within 12 months. </p>'
+            paragraphs: '<p>Here’s the scoop—this college is all about the story. Getting it, analyzing it, and carefully constructing a powerful way to tell it. Whether you’re a future go-getter journalist, refined multimedia expert, or a PR powerhouse, this is the place for you. And when you choose Queens, your story is guaranteed to be a successful one. That’s why 100% of grads were employed or in grad school within 12 months of graduating.</p>'
           -
             break: true
           -
@@ -126,24 +126,24 @@ components:
               hover: /images/headshot_arts-hover.png
               alt: arts and sciences
             heading: College of Arts & Sciences
-            paragraphs: '<p>The College of Arts & Sciences will prepare you to do it all. Here, you’ll find the widest range of majors spanning from music to biochemistry to legal. This college is the great connector between arts, sciences, and humanities led by award-winning faculty mentors. And the results speak for themselves—100% of undergrads were employed within 12 months.</p>'
+            paragraphs: '<p>The College of Arts & Sciences will prepare you to do it all. Here, you’ll find the widest range of majors, spanning from music to biochemistry to legal. This college is the great connector between arts, sciences, and humanities, led by award-winning faculty mentors. And the results speak for themselves—100% of undergrads were employed within 12 months of graduating.</p>'
           -
             image:
               src: /images/headshot_mccoll.png
               hover: /images/headshot_mccoll-hover.png
               alt: business school
             heading: Mccoll School of Business
-            paragraphs: '<p>In a field that’s always evolving, it can be challenging to keep up—but the McColl School of Business is built different. We’re based in the number #2 financial hub in the country behind New York City. Here, you’ll create unmatched connections and grow your network—all in a city rich with career opportunities in established industries as well as emerging ones. The stats speak for themselves, with 100% of undergraduate students employed or in grad school within 9 months.</p>'
+            paragraphs: '<p>In a field that’s always evolving, it can be challenging to keep up—but the McColl School of Business is built different. We’re based in the #2 financial hub in the country behind New York City. Here, you’ll create unmatched connections and grow your network—all in a city rich with career opportunities in established industries as well as emerging ones. The stats speak for themselves, with 100% of undergraduate students employed or in grad school within 9 months of graduating.</p>'
       -
         type: pillGroup
         heading: Why We're Worth it  
         items:
           -
             heading: Social Mobility
-            paragraphs: '<p>At Queens, we rank #1 among Charlotte institutions in *social mobility</p>'
+            paragraphs: '<p>At Queens, we rank #1 among Charlotte institutions.</p>'
           -
             heading: Lifetime Earning Potential
-            paragraphs: '<p>College grads can expect to earn $1 million more in lifetime earning potential than those who only hold a high school diploma*</p>'
+            paragraphs: '<p>College grads can expect to earn $1 million more in lifetime earning potential compared to those who only hold a high school diploma.</p>'
           -
             heading: Lifelong Skills
             paragraphs: '<p>Our gen ed program is purposefully structured so that you’re learning how to approach real-life issues with the necessary nuances that will help you be effective. This will allow you to develop skills like critical thinking, empathy, and problem solving that are essential when it comes to entering the workforce.</p>'
@@ -158,16 +158,16 @@ components:
     items:
       -
         heading: Full-time comprehensive tuition
-        subheading: $40,590
+        subheading: $40,790
         paragraphs: <ul><li>Includes the majority of study abroad costs</li></ul>
       -
         heading: Housing Options
-        subheading: $6,300 - $12,000
-        paragraphs: '<ul><li>Corridor Double (Albright, Barnhardt, Belk): $8k/year</li><li>Corridor Triple (Albright, Barnhardt): $7.2k/year</li><li>Corridor Quad (Barnhardt): $6.3k/year</li><li>Corridor Double (Hayes): $9.5k/year</li><li>Corridor Double (HBO): $8k/year</li><li>Corridor Triple (HBO): $7.2k/year</li><li>Suite Single (Wireman, Byrum, Northwest): $12k/year</li><li>Suite Double (Wireman, Byrum, Hayes, Northwest): $9.5k/year</li><li>Suite Double with Private Bathroom (Northwest): $10.1k/year</li><li>Suite Triple (Northwest): $8.3k/year</li></ul>'
+        subheading: $6,300 - $12,600
+        paragraphs: '<ul><li>Corridor Double (Albright, Barnhardt, Belk): $8.4k/year</li><li>Corridor Triple (Albright, Barnhardt): $7.6k/year</li><li>Corridor Quad (Barnhardt): $6.6k/year</li><li>Corridor Double (Hayes): $9.5k/year</li><li>Corridor Double (HBO): $8k/year</li><li>Corridor Triple (HBO): $7.2k/year</li><li>Suite Single (Wireman, Byrum, Northwest): $12.6k/year</li><li>Suite Double (Wireman, Byrum, Hayes, Northwest): $10k/year</li><li>Suite Double with Private Bathroom (Northwest): $10.6k/year</li><li>Suite Triple (Northwest): $8.8k/year</li></ul>'
       -
         heading: Meal Plan Options
-        subheading: $3,200 - $6,000
-        paragraphs: '<ul><li>Resident Meal Plan Options:<ul><li>Unlimited Meal Plan: $6k/year</li><li>17 Meals Per Week: $5.2k/year</li><li>12 Meals Per Week: $4.8k/year</li><li>7 Meals Per Week (Only available to juniors and seniors): $3.2k/year</li></ul></li><li>Commuter Meal Plan Options:<ul><li>10 Meals: $97.03 +tax</li><li>25 Meals: $218.48 +tax</li><li>50 Meals: $413.16 +tax</li><li>75 Meals: $519.06 +tax</li><li>100 Meals: $679.46 +tax</li></ul></li></ul>'
+        subheading: $3,200 - $6,500
+        paragraphs: '<ul><li>Resident Meal Plan Options:<ul><li>Unlimited Meal Plan: $6.5k/year</li><li>17 Meals Per Week: $5.7k/year</li><li>12 Meals Per Week: $4.8k/year</li><li>7 Meals Per Week (Only available to juniors and seniors): $3.2k/year</li></ul></li><li>Commuter Meal Plan Options:<ul><li>10 Meals: $97.03 +tax</li><li>25 Meals: $218.48 +tax</li><li>50 Meals: $413.16 +tax</li><li>75 Meals: $519.06 +tax</li><li>100 Meals: $679.46 +tax</li></ul></li></ul>'
       -
         heading: Average total cost
         subheading: $56,030
@@ -183,52 +183,52 @@ components:
         heading: Athletics
         paragraphs: <p>If you’re an NCAA Division I student-athlete, this talent-based scholarship could be for you.</p>
       -
-        heading: Name something else
-        paragraphs: '<p>For students and families in Mecklenburg County, our Charlotte Talent Initiative (CTI) is designed to help create economic mobility. CTI scholars will be provided funds to cover tuition, room and board.</p>'
+        heading: Local
+        paragraphs: '<p>For students and families in Mecklenburg County, our Charlotte Talent Initiative (CTI) is designed to help create economic mobility. CTI scholars will be provided funds to cover tuition room and board.</p>'
       -
         heading: More
-        paragraphs: '<p>See our full list of Queens’ scholarships</p>'
+        paragraphs: '<p><a href="https://www.queens.edu/admissions-aid/tuition-scholarship-aid/freshman-transfer-scholarships/" target="_blank">See our full list of Queens’ scholarships</a></p>'
   -
     type: pillGroupSection
     heading: Financial Aid
     items:
       -
-        heading: Most Royals Recieve Aid
+        heading: Most Royals Receive Aid
         paragraphs: <p>98% of students receive financial aid.</p>
       -
         heading: Merit Scholarships
-        paragraphs: <p>15 additional types of merit scholarships available</p>
+        paragraphs: <p>15 additional types of merit scholarships are available.</p>
       -
         heading: All Considered for Scholarships
         paragraphs: '<p>100% of students are considered for scholarships.</p>'
       -
         heading: Pell Grant
-        paragraphs: '<p>Just over 1 out of 4 Royals received this grant in 2020.</p><p>*The Pell Grant is based on exceptional financial need, and is the largest federal grant program for undergraduates.</p>'
+        paragraphs: '<p>Just over 1 out of 4 Royals received this grant in 2020.</p><p>The Pell Grant is based on exceptional financial need and is the largest federal grant program for undergraduates.</p>'
   -
     type: overview
     variant: blue
     subheading: FAQ
     heading: Real Questions. Real Families. Real Answers.
-    paragraphs: '<p>We never want you to feel alone in making the decision to become a Royal. Our faculty and staff will always be here to support you throughout your time at Queens. So, we’ve reached out to students, family, and faculty who have been in your shoes to help compile a list of answers to their most pressing questions. Whether it’s your first time going through the enrollment process or your tenth, we’re here to help. And if you’ve got a question that’s not covered, please feel free to reach out!</p>'
+    paragraphs: '<p>We never want you to feel alone in making the decision to become a Royal. Our faculty and staff will always be here to support you throughout your time at Queens. So, we’ve reached out to students, family, and faculty who have been in your shoes to help compile a list of answers to their most pressing questions. Whether it’s your first time going through the enrollment process or your 10th, we’re here to help. And if you’ve got a question that’s not covered, please feel free to reach out!</p>'
     items:
       -
         heading: What’s it like to be a queens student?
-        paragraphs: <p>Queens school spirit is real. Royals always rise to the occasion and show up for sports games and attend on-campus events like Casino Night and the Spring Carnival. And the school spirit doesn’t end there. We have over 40 clubs and organizations to choose from, and if you can’t find one that sparks your interest—start your own! Queens students also take full advantage of being in Charlotte, and spend plenty of time exploring trendy neighborhoods like NoDa and Plaza Midwood. If you want to experience a first-hand feel for our campus check out our Instagram and TikTok @queensuniv, or schedule a visit today.</p>
+        paragraphs: <p>Queens school spirit is real. Royals always rise to the occasion and show up for sports games and attend on-campus events like Casino Night and the Spring Carnival. And the school spirit doesn’t end there. We have more than 40 clubs and organizations to choose from, and if you can’t find one that sparks your interest, start your own! Queens students also take full advantage of being in Charlotte and spend plenty of time exploring trendy neighborhoods like NoDa and Plaza Midwood. If you want to experience a first-hand feel for our campus, check out our Instagram and TikTok @queensuniv, or schedule a visit today.</p>
       -
         heading: What’s campus like?
         paragraphs: <p>Our campus is a calming green space located in the Charlotte neighborhood of Myers Park. One of the perks of going to a smaller university is that you’re never more than a five-minute walk from your best friend’s dorm or a ten-minute drive from the city. If you’d like a sneak peek of what our residence halls look like, check out our dorm tour walkthrough on YouTube!</p>
       -
-        heading: What’s a gen ed and how is it different here?
-        paragraphs: <p>When you hear “gen ed,” an assortment of random classes might come to mind. And at many universities, that’s still the case. But in order for us to truly deliver on our motto of “not to be served, but to serve,” we approached gen ed a little differently. Our general educational program functions so that you’ll get to be a part of three different learning communities, which are groups of classes that focus on examining one topic from various different lenses. This will allow you to connect with and develop a deep, real-world understanding of some society’s most complex issues.</p>
+        heading: What’s gen ed and how is it different here?
+        paragraphs: <p>When you hear “gen ed,” an assortment of random classes might come to mind. And at many universities, that’s still the case. But in order for us to truly deliver on our motto of “not to be served, but to serve,” we approached gen ed a little differently. Our general educational program functions so that you’ll be a part of three learning communities, which are groups of classes that focus on examining one topic from various lenses. This will allow you to connect with and develop a deep, real-world understanding of some of society’s most complex issues.</p>
       -
         heading: Do Queens students get internships and job opportunities?
-        paragraphs: <p>100% of our undergraduates complete at least one internship before graduating. Which makes them 35% more likely to get a job offer after graduation than those without internship experience (zippia.com). So, it’s not a question of if you’ll intern and land jobs, but where—and the opportunities are endless. Royals have worked for companies like Atrium Health, Bank of America, Deloitte, Fox Sports, Google, L’Oreal Paris, Walt Disney World, and more!</p>
+        paragraphs: <p>100% of our undergraduates complete at least one internship before graduating, which makes them 35% more likely to get a job offer after graduation than those without internship experience (zippia.com). So, it’s not a question of if you’ll intern and land jobs, but where—and the opportunities are endless. Royals have worked for companies like Atrium Health, Bank of America, Deloitte, Fox Sports, Google, L’Oreal Paris, Disney, and more!</p>
       -
         heading: What about study abroad opportunities?
-        paragraphs: <p>We want as many students as possible to become global citizens. So, we make sure that the majority of study abroad costs are embedded in tuition to make it more accessible. We also have a wide range of programs to choose from, so you can find the abroad experience that works best for you. Students can choose from two-to-three-week programs, summer programs, or a full semester.</p>
+        paragraphs: <p>We want as many students as possible to become global citizens. So, we make sure that the majority of study abroad costs are embedded in tuition to make the experience more accessible. We also have a wide range of programs to choose from, so you can find the abroad experience that works best for you. Students can choose from two-to-three-week programs, summer programs, or a full semester.</p>
       -
-        heading: What are the benefits of studying abroad?
-        paragraphs: '<p>Aside from cultural experiences and exploration, there are several skills developed while studying abroad that make you more desirable to employers (for example: flexibility, adaptability, excellent communication, problem solving). Studying abroad also improves college completion rates, and according to research from IES Abroad 90% of students who studied abroad found their first job within 6 months of graduation.</p>'
+        heading: Will Queens prepare me for the real world?
+        paragraphs: '<p>Absolutely! Every part of the Queens experience from studying abroad, to internships, to service, is intentionally planned to prepare you for the real world. These experiences, paired with our gen ed curriculum, help you strengthen and develop skills that employers seek out, like flexibility, adaptability, communication, and problem solving.</p>'
       -
         heading: What are Charlotte's Biggest Industries?
         paragraphs: <p>Government, banking, financial services, manufacturing, energy, automotive, health, technology, and retail.</p>
@@ -236,11 +236,8 @@ components:
         heading: What's the cost of living in Charlotte?
         paragraphs: <p>The cost of living in Charlotte is lower than the national average (for cost of living and housing cost).</p>
       -
-        heading: What is FAFSA?
-        paragraphs: <p>FAFSA is the largest provider of financial aid for college in the US.</p>
-      -
         heading: What about Financial Aid? 
-        paragraphs: <p>We have a comprehensive FAQ all about financial aid here.</p><p>If you have any other questions please reach out!</p>
+        paragraphs: <p>We encourage students to apply for FAFSA, which stands for the Free Application for Federal Student Aid. This helps us decide how to allocate Queens aid in addition to federal and state. We have a comprehensive FAQ all about financial aid here [link out to financial aid FAQ. If you have any other questions, please <a href="https://www.queens.edu/admissions-aid/tuition-scholarship-aid/financial-aid-101.html" target="_blank">reach out!</a></p>
   -
     type: section
     heading: Admissions Counselors
@@ -258,7 +255,7 @@ components:
                 desktop: /images/media-context_5.jpg
                 mobile: /images/media-context_5.jpg
             heading: Who we are
-            paragraphs: "<p>Each of our admissions counselors has a specialty, whether that be working with transfer, undocumented, local, or international students. Check out our rolodex.</p>"
+            paragraphs: "<p>Each of our admissions counselors has a specialty, whether that be working with transfer, undocumented, local, or international students. Check out our Rolodex.</p>"
           -
             reversed: true
             micro: true
@@ -298,8 +295,8 @@ components:
               src: /images/headshot_a-mak.png
               hover: /images/headshot_a-mak-hover-w.png
               alt: a mak
-            heading: Alvan Makoundi-Tchia ’18
-            paragraphs: '<ul><li>Admissions Counselor, International Support Specialist</li><li>123-456-7890</li><li>makoundi-tchia@queens.edu</li><li>Primarily works with transfer students and international students</li></ul>'
+            heading: Alvan Makoundi-Tchibinda ’18
+            paragraphs: '<ul><li>Admissions Counselor, International Support Specialist</li><li>704-337-2542</li><li>makoundi-tchia@queens.edu</li><li>Primarily works with transfer students and international students</li></ul>'
           -
             image:
               src: /images/headshot_r-moore.png
@@ -359,7 +356,7 @@ components:
               src: /images/headshot_e-brown.png
               hover: /images/headshot_e-brown-hover.png
               alt: e brown
-            paragraphs: '<p>“You are not just a number, you are a person, and you are known in the school.” While working with our admissions team, Everton was pleasantly surprised by the humanity of it all. Every touch point throughout your journey is done by real-hard working humans from our admissions office who are rooting for your success.</p>'
+            paragraphs: '<p>“You are not just a number, you are a person, and you are known in the school.”<br>While working with our admissions team, Everton was pleasantly surprised by the humanity of it all. Every touchpoint throughout your journey is done by real hard-working humans from our admissions office who are rooting for your success.</p>'
             byline:
               name: Everton Brown
               title: Parent of Matthew Brown ‘24
@@ -396,7 +393,7 @@ components:
               src: /images/headshot_a-powell.png
               hover: /images/headshot_a-powell-hover.png
               alt: a powell
-            paragraphs: '<p>“Pick a school that makes sense, so you can make cents.”</p><p>Our Assistant Director of Admissions, Ahmon Powell, broke down what it really means for a school to be a good fit. He noted that picking a school in the place you love, with a financial aid and scholarship package that makes the most sense is a surefire way to find the one.</p>'
+            paragraphs: '<p>“Pick a school that makes sense, so you can make cents.”</p><p>Our assistant director of admissions, Ahmon Powell, broke down what it really means for a school to be a good fit. He noted that picking a school in the place you love, with a financial aid and scholarship package that makes the most sense is a surefire way to find the one.</p>'
             byline:
               name: Ahmon Powell
               title: Assistant Director of Admissions
@@ -407,7 +404,7 @@ components:
               src: /images/headshot_m-antley.png
               hover: /images/headshot_m-antley-hover.png
               alt: m antley
-            paragraphs: '<p>“100% of our undergraduates complete at least one internship before graduating.”</p><p>Meredith, one of our admissions counselors, sings the praise of our Vandiver Career Center. Queens has a comprehensive relationship with industry leaders in Charlotte, professionals want to work with Royals—expanding the opportunities for internships and jobs tenfold.</p>'
+            paragraphs: '<p>“100% of our undergraduates complete at least one internship before graduating.”</p><p>Meredith, one of our admissions counselors, sings the praise of our Vandiver Career Center. Queens has a comprehensive relationship with industry leaders in Charlotte, and professionals want to work with Royals—expanding the opportunities for internships and jobs tenfold.</p>'
             byline:
               name: Meredith Antley
               title: Admissions Counselor
@@ -416,7 +413,7 @@ components:
               src: /images/headshot_t-piest.png
               hover: /images/headshot_t-piest-hover.png
               alt: t piest
-            paragraphs: '<p>“In our admission letter, every student gets a personalized paragraph based on their essay.”</p><p>Real people are combing through every single application at Queen. And our admissions process is all about you the whole way through. When your student is accepted their admission letter will include a personalized paragraph based on your student’s essay. It’s the little things.</p>'
+            paragraphs: '<p>“In our admission letter, every student gets a personalized paragraph based on their essay.”</p><p>Real people are combing through every single application at Queens. And our admissions process is all about you the whole way through. When your student is accepted their admission letter will include a personalized paragraph based on your student’s essay. It’s the little things.</p>'
             byline:
               name: Trish Priest
               title: Director, Undergraduate Admissions
@@ -424,14 +421,14 @@ components:
         type: SquiggleBorder
       -
         type: thumbnailCarousel
-        heading: Pro tips on the admissions process
+        heading: Pro-tips on the admissions process
         items:
           -
             image:
               src: /images/headshot_a-glover.png
               hover: /images/headshot_a-glover-hover.png
               alt: a glover
-            paragraphs: '<p>Do things as early as you can, then sit back and be patient. Make the most of your resources, ask all the questions during the admissions process, and once you put in the work and hit apply—all you can do is wait.</p>'
+            paragraphs: '<p>Do things as early as you can, then sit back and be patient. Make the most of your resources, ask all the questions during the admissions process, and once you put in the work and hit apply, all you can do is wait.</p>'
             byline:
               name: Aly Glover
               title: Senior Assistant Director of Admissions
@@ -460,7 +457,7 @@ components:
               src: /images/headshot_a-powell.png
               hover: /images/headshot_a-powell-hover.png
               alt: a powell
-            paragraphs: '<p>Have fun, this process is all about you. Think about what school has the major your want, with a scholarship and financial aid package that makes sense for you, in a location you want to be in.</p>'
+            paragraphs: '<p>Have fun! This process is all about you. Think about what school has the major you want, with a scholarship and financial aid package that makes sense for you, in a location you want to be in.</p>'
             byline:
               name: Ahmon Powell
               title: Assistant Director of Admissions
@@ -480,7 +477,7 @@ components:
               src: /images/headshot_r-moore.png
               hover: /images/headshot_r-moore-hover.png
               alt: r moore
-            paragraphs: '<p>Don’t settle. At Queens, you can be a Biochem major…and a music minor. Here, we have the resources for you to pursue every passion without sacrificing other interests.</p>'
+            paragraphs: '<p>Don’t settle. At Queens, you can be a biochem major…and a music minor. Here, we have the resources for you to pursue every passion without sacrificing other interests.</p>'
             byline:
               name: Raygon Moore
               title: Admissions Counselor
@@ -489,7 +486,7 @@ components:
               src: /images/headshot_m-antley.png
               hover: /images/headshot_m-antley-hover.png
               alt: m antley
-            paragraphs: '<p>Think about the location. I went to school in the middle of a cornfield, and if I were to do it again. I’d think long and hard about the location I was studying in. Remind yourself about the practicality and variety of the location you choose. You’ll be spending the next four years of your life in the area you pick, make sure you love it.</p>'
+            paragraphs: '<p>Think about the location. I went to school in the middle of a cornfield, and if I were to do it again, I’d think long and hard about the location I was studying in. Remind yourself about the practicality and variety of the location you choose. You’ll be spending the next four years of your life in the area you pick-make sure you love it.</p>'
             byline:
               name: Meredith Antley
               title: Admissions Counselor
